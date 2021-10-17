@@ -5,7 +5,7 @@ Feel free to remove code and implement your own version, or change it anyway you
 You can use any resource you like, and ask us questions during the session. 
 
 ## completed tasks:
-1,2,3,10  
+1,2,3,10,11 
 9: not working correctly
 
 ## Tasks:
