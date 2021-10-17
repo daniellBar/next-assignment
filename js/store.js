@@ -1,10 +1,11 @@
 import { emptyItemQuery } from "./item.js";
 
+
 export default class Store {
   constructor(name, callback) {
     const localStorage = window.localStorage;
 
-    let liveTodos; //=this.getApiTodos();
+    let liveTodos;
 
     this.getLocalStorage = () => {
       return liveTodos || JSON.parse(localStorage.getItem(name) || "[]");
@@ -80,6 +81,7 @@ export default class Store {
 
   fixTitle(title) {
 	 if(title.includes('<') || title.includes('>')){
+     // ugly but had not time to look for a regex expression to include both
 		 const firstReplace=title.replace('<','')
 		 const secondReplace=firstReplace.replace('>','')
 		 return secondReplace

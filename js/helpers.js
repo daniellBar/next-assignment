@@ -1,5 +1,6 @@
 export function query(selector, scope) {
-	if(scope === null) throw 'query scope cannot be null';
+	// view constructor is the only place where query is used and it get no scope input param
+	// if(scope === null) throw 'query scope cannot be null';
 	return (scope || document).querySelector(selector);
 }
 
