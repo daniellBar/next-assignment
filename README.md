@@ -4,10 +4,6 @@ The order is up to you :)
 Feel free to remove code and implement your own version, or change it anyway you like.
 You can use any resource you like, and ask us questions during the session. 
 
-## completed tasks:
-1,2,3,10,11 
-9: not working correctly
-
 ## Tasks:
 1.  Tasks should persist after closing the browser. ( 5pt )
 2.  Prevent duplication in tasks. ( 10pt )
